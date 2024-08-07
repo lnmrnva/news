@@ -19,6 +19,7 @@ body {
     min-height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    margin: 0;
 }
 
 .header {
@@ -188,6 +189,7 @@ body {
 
 .footer {
    background-color: var(--color-primary);
+   margin-top: 70px;
 }
 
 .footer__list {
