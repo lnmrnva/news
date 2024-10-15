@@ -147,12 +147,20 @@ body {
     font-size: 42px;
     font-weight: 700;
     margin: 0px 0px 34px 0px;
-    line-height: 49.77px;
+    line-height: 49.77px;   
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .main-article__text {
     margin-bottom: 36px;
     line-height: 26.07px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .minor-article {
